@@ -17,7 +17,7 @@ router.get('/', (req, res,) => {
         });
 });
 
-router.post('/save', (req, res) => {
+router.post('/upload', (req, res) => {
     const data = req.body;
     
     const newCvParse = new CvParse(data);
